@@ -18,6 +18,6 @@ spec:
     - name: DBPORT
       value: "3306"
     - name: DBHOST(IP address of running mysql pod)
-      value: ""
+      value: "10.244.0.7"
   imagePullSecrets:
   - name: regcred
